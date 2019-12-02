@@ -4,6 +4,7 @@ public class Git {
 	
 	private int id;
 	private String name;
+	private String address;
 	public int getId() {
 		return id;
 	}
@@ -16,5 +17,10 @@ public class Git {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 }
